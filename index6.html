@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Position</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style6.css">
+</head>
+
+<body>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel">Subscribe to our newsletter</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="form">
+            <label for="name" class="form-label">Name*</label>
+            <input type="text" class="form-control" id="name" placeholder="Your name">
+            <label for="email" class="form-label">Email*</label>
+            <input type="text" class="form-control" id="email" placeholder="Your email">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn modal-btn">SEND</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel">Send your CV</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="form">
+            <label for="name" class="form-label">Name*</label>
+            <input type="text" class="form-control" id="name" placeholder="Your name">
+            <label for="phone" class="form-label">Phone*</label>
+            <input type="text" class="form-control" id="phone" placeholder="Your email">
+            <label for="location" class="form-label">Location*</label>
+            <input type="text" class="form-control" id="location" placeholder="Your email">
+            <label for="email" class="form-label">Email*</label>
+            <input type="text" class="form-control" id="email" placeholder="Your email">
+            <label for="letter"></label>
+            <textarea name="" id="letter" cols="30" rows="10" placeholder="Your covering letter"></textarea>
+            <a href="#" class="text-decoration-none link"><img src="images/Attach.svg" alt=""> Attach your CV</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn modal-btn">SEND</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+      <nav class="navbar navbar-expand-lg  p-0" id="mainNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#myNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start " tabindex="-1" id="myNavbar">
+          <div class="offcanvas-header">
+            <a href="#"><img src="images/logo2.png" alt="logo"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="navbar-nav">
+              <ul class="list-unstyled ">
+                <li class="nav-item active"> <a href="index5.html" class="nav-link p-0">About Us</a></li>
+                <li class="nav-item "> <a href="index2.html" class="nav-link "> Services</a></li>
+                <li class="nav-item"><a href="index4.html" class="nav-link ">Work</a></li>
+                <li class="nav-item"><a href="index7.html" class="nav-link ">News</a></li>
+                <li class="nav-item "><a href="index9.html" class="nav-link ">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </nav>
+      <div class="right-part">
+        <div class="call-us">
+          <img src="images/iPhone.svg" alt="">
+          <div class="call">
+            <p> Call us </p>
+            <a href="tel:(405)555-01-28">(405)555-0128</a>
+          </div>
+        </div>
+        <div class="comment">
+          <img src="images/Chat.svg" alt="">
+          <div>
+            <p> Talk to us </p>
+            <a href="mailto:hello@createx.com">hello@createx.com</a>
+          </div>
+        </div>
+      </div>
+  </header>
+  <div class="banner">
+    <div class="container">
+      <div class="breadcrumb1">
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+            <li class="breadcrumb-item"><a href="index5.html">About us</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Available positions</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="main-title">
+        <h1>AVAILABLE <br> POSITIONS</h1>
+        <p class="title-text">Build your career with Createx Construction Bureau.</p>
+      </div>
+    </div>
+  </div>
+ <section>
+    <div class="container">
+      <div class="cns-look-for">
+        <div class="row flex-column-reverse flex-xl-row ">
+          <div class="col-xl-8">
+            <div class="vacancy-card d-flex justify-content-between align-items-center">
+              <div class="vacancy">
+                <div class="info ">
+                  <ul class="list-unstyled d-flex">
+                    <li class="d-flex  align-items-center">
+                      <img src="images/outline.png" alt="">
+                      <span>New York</span>
+                    </li>
+                    <li class="d-flex  align-items-center">
+                      <img src="images/Clock (1).png" alt="">
+                      <span>Full Time</span>
+                    </li>
+                  </ul>
+                </div>
+                <p>Heavy Equipment Operator</p>
+              </div>
+              <div class="bttns ">
+                <a href="#" class="btn apply-btn">APPLY NOW</a>
+              </div>
+            </div>
+            <div class="vacancy-card d-flex justify-content-between align-items-center">
+              <div class="vacancy">
+                <div class="info ">
+                  <ul class="list-unstyled d-flex">
+                    <li class="d-flex  align-items-center">
+                      <img src="images/outline.png" alt="">
+                      <span>New York</span>
+                    </li>
+                    <li class="d-flex  align-items-center">
+                      <img src="images/Clock (1).png" alt="">
+                      <span>Full Time</span>
+                    </li>
+                  </ul>
+                </div>
+                <p>Financial Compliance Analyst</p>
+              </div>
+              <div class="bttns ">
+                <a href="#" class="btn apply-btn">APPLY NOW</a>
+              </div>
+            </div>
+            <div class="vacancy-card d-flex justify-content-between align-items-center">
+              <div class="vacancy r">
+                <div class="info ">
+                  <ul class="list-unstyled d-flex">
+                    <li class="d-flex  align-items-center">
+                      <img src="images/outline.png" alt="">
+                      <span>San Francisco</span>
+                    </li>
+                    <li class="d-flex  align-items-center">
+                      <img src="images/Clock (1).png" alt="">
+                      <span>Full Time</span>
+                    </li>
+                  </ul>
+                </div>
+                <p>Project Manager - Buildings</p>
+              </div>
+              <div class="bttns ">
+                <a href="#" class="btn apply-btn">APPLY NOW</a>
+              </div>
+            </div>
+            <div class="vacancy-card d-flex justify-content-between align-items-center">
+              <div class="vacancy">
+                <div class="info ">
+                  <ul class="list-unstyled d-flex">
+                    <li class="d-flex  align-items-center">
+                      <img src="images/outline.png" alt="">
+                      <span>New Jersey</span>
+                    </li>
+                    <li class="d-flex  align-items-center">
+                      <img src="images/Clock (1).png" alt="">
+                      <span>Part Time</span>
+                    </li>
+                  </ul>
+                </div>
+                <p>Environment Specialist</p>
+              </div>
+              <div class="bttns ">
+                <a href="#" class="btn apply-btn">APPLY NOW</a>
+              </div>
+            </div>
+            <div class="vacancy-card d-flex justify-content-between align-items-center">
+              <div class="vacancy">
+                <div class="info ">
+                  <ul class="list-unstyled d-flex">
+                    <li class="d-flex  align-items-center">
+                      <img src="images/outline.png" alt="">
+                      <span>New York</span>
+                    </li>
+                    <li class="d-flex  align-items-center">
+                      <img src="images/Clock (1).png" alt="">
+                      <span>Full Time</span>
+                    </li>
+                  </ul>
+                </div>
+                <p>Accountant</p>
+              </div>
+              <div class="bttns ">
+                <a href="#" class="btn apply-btn">APPLY NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+
+            <div class="CTA">
+              <h3>Didn’t find what you were looking for?</h3>
+              <p>Send your CV or subscribe to our newsletter to receive information about new vacancies.</p>
+              <div class="bttn d-flex">
+                <button type="button" class=" text-center subscribe-btn1" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">SUBSCRIBE</button>
+                <button type="button" class="text-center send-btn1" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2">SEND CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section>
+   <div class="container">
+      <div class="benefits">
+        <h2>Employee benefits</h2>
+        <p>There’s always room for talent.</p>
+        <div class="benefits-items d-flex  justify-content-center align-items-center">
+          <div class="icon-box ">
+            <img src="images/ic-brain.svg" alt="">
+            <p class="title1">Training</p>
+            <p class="benefits-text">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud
+              aliquip sunt.</p>
+
+          </div>
+          <div class="divider">
+            <img src="images/divider.png" alt="">
+          </div>
+          <div class="icon-box">
+            <img src="images/ic-success.svg" alt="">
+            <p class="title1">Professional Growth</p>
+            <p class="benefits-text">Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing.
+              Minim empor est ea.</p>
+
+          </div>
+          <div class="divider">
+            <img src="images/divider.png" alt="">
+          </div>
+          <div class="icon-box ">
+            <img src="images/Group.svg" alt="">
+            <p class="title1">Growing Salary</p>
+            <p class="benefits-text">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco
+              proident ea ad.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper1">
+    <div class="container" style="padding: 80px 0;">
+      <div class="app-form ">
+        <h3 class="text-center">A quick way to discuss details</h3>
+        <form action="">
+          <label for="name" class="form-label">Name*</label>
+          <input type="text" class="form-control mb-2 check-form" id="name" placeholder="Your name">
+          <label for="phone" class="form-label">Phone*</label>
+          <input type="tel" class="form-control mb-2  check-form" id="phone" placeholder="Your phone number">
+          <label for="email" class="form-label">Email*</label>
+          <input type="email" class="form-control mb-2 check-form" id="email" placeholder="Your working email">
+          <label for="text" class="form-label">Message*</label> <br>
+          <textarea name="" id="text" cols="30" rows="10" placeholder="Your message" class=" check-form"></textarea>
+          <input type="checkbox" id="check">
+          <label for="check" class="label">I agree to receive communications from Createx Construction Bureau.</label>
+          <input type="button" class="send-btn" value="Send Request">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="d-flex footer-contact">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo2.png" alt=""></a>
+            </div>
+            <div class="social-media ">
+              <ul class="list-unstyled d-flex">
+                <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer-text">Createx Construction Bureau has been successfully operating in the USA construction
+            market since 2000. We are proud to offer you quality construction and exemplary service. Our mission is to
+            set the highest standards for construction sphere.</p>
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <div class="contacts">
+                <p class="info">HEAD OFFICE</p>
+                <p class="address"><span>Address: </span>8502 Preston Rd. Inglewood, New York</p>
+                <a href="tel:(405)555-01-28"><span> Call: </span>(405)555-01-28</a><br>
+                <a href="mailto:hello@createx.com"><span> Email: </span>hello@createx.com</a>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="links">
+                <h6>Who we are</h6>
+                <ul class="list-unstyled">
+                  <li><a href="index5.html">About Us</a></li>
+                  <li><a href="index6.html">Available Positions</a></li>
+                  <li><a href="index9.html">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 reverse">
+          <p class="stay-touch">Let’s stay in touch</p>
+          <div class=" input--btn ">
+            <form action="">
+              <input type="text" class="form-control subscribe" placeholder="Your email address">
+              <input type="button" class="subscribe-btn" value="SUBSCRIBE">
+            </form>
+          </div>
+          <p class="subscribe-text">*Subscribe to our newsletter to receive communications and early updates from
+            Createx Construction Bureau.</p>
+          <div class="row">
+            <div class="col-12">
+              <div class="links">
+                <h6>OUR EXPERIENCE</h6>
+                <ul class="list-unstyled">
+                  <li><a href="index2.html">Services</a></li>
+                  <li><a href="index3.html">Work </a></li>
+                  <li><a href="index7.html">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last-part d-flex align-items-end justify-content-between">
+        <div class="copyright">
+          <p>© All rights reserved. Made with<i class="fa-regular fa-heart mx-1 mb-1"></i>by Createx Studio </p>
+        </div>
+        <div class="up">
+          <p>GO TO TOP</p><a href="index6.html" class="btn"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
