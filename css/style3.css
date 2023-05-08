@@ -25,6 +25,11 @@ body {
     --text-color: #787A80;
 }
 
+.fixed-layer{
+    height: 90px;
+    background-color: #787A80;
+}
+
 .banner {
     width: 100%;
     height: 600px;
@@ -42,7 +47,7 @@ header {
     left: 0;
     width: 100%;
     background-color: #fff;
-    padding: 20px 0 20px;
+    padding: 20px 0 ;
     z-index: 999;
 
 }
@@ -58,7 +63,7 @@ header .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .navbar-nav ul li {
@@ -70,7 +75,7 @@ header .logo {
 }
 
 .navbar-nav ul li a {
-
+    padding: 0;
     font-size: 16px;
     font-weight: 700;
     line-height: 25.6px;
